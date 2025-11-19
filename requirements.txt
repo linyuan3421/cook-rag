@@ -1,0 +1,28 @@
+# === Core Dependencies for Cook-RAG Project (Version Pinned) ===
+
+# LangChain Framework (Specify core components for stability)
+langchain==0.1.20
+langchain-community==0.0.38
+langchain-huggingface==0.0.3
+langchain-core==0.1.53
+langchain-text-splitters==0.0.1
+
+# Tongyi/Qwen LLM Integration
+dashscope>=1.14.5
+
+# Vector Store & Retriever
+faiss-cpu==1.9.0
+rank-bm25==0.2.2
+
+# Utilities
+python-dotenv==1.0.1
+tiktoken==0.8.0
+pandas~=2.2.2
+Faker~=25.0.0
+SQLAlchemy~=2.0.30
+
+# Web Interface
+streamlit>=1.51.0
+
+# 添加sentence-transformers用于重排序
+sentence-transformers>=2.2.0
