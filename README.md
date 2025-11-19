@@ -6,7 +6,10 @@
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
 [![RAG](https://img.shields.io/badge/RAG-Advanced-green)](https://github.com/datawhalechina/all-in-rag)
 
+
 **Cook-RAG** 是一个基于 **Advanced RAG (高级检索增强生成)** 架构构建的垂直领域问答系统。它不仅仅是一个简单的搜索工具，更是一个能够理解烹饪意图、提供结构化指导的智能 AI 厨房助手。
+
+![运行演示](assets/demo.png)
 
 本项目数据源自 [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook)。
 
@@ -24,6 +27,8 @@
 *   📚 **来源追踪**: 回答附带可折叠的参考食谱来源，拒绝 AI 幻觉。
 
 ## 🏗️ 技术架构
+
+![技术架构图](assets/architecture.png)
 
 | 模块 | 技术选型 | 说明 |
 | :--- | :--- | :--- |
